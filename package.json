@@ -1,6 +1,6 @@
 {
   "name": "generator-walterio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Walterio yeoman generator for React ESLint JS and TS",
   "author": "Walter Radduso",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^5.2.0"
+    "yeoman-generator": "^2.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
