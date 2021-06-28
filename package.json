@@ -1,6 +1,6 @@
 {
   "name": "generator-walterio",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Walterio yeoman generator for React ESLint JS and TS",
   "author": "Walter Radduso",
   "license": "ISC",
@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/WalterRadduso/generator.git"
   },
+  "bugs": {
+    "url": "https://github.com/WalterRadduso/generator/issues"
+  },
+  "homepage": "https://github.com/WalterRadduso/generator#readme",
   "keywords": [
     "yeoman-generator"
   ],
