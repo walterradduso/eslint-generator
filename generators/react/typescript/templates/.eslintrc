@@ -65,6 +65,7 @@
         "newlines-between": "always"
       }
     ],
+    "react/prop-types": "off",
     "react/self-closing-comp": "warn",
     "react/jsx-sort-props": [
         "warn",
