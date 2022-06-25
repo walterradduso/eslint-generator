@@ -7,6 +7,7 @@ module.exports = class extends Generator {
         '@typescript-eslint/eslint-plugin',
         '@typescript-eslint/parser',
         'eslint',
+        'eslint-config-next',
         'eslint-config-prettier',
         'eslint-config-standard',
         'eslint-plugin-import',
