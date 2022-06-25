@@ -13,6 +13,7 @@ module.exports = class extends Generator {
         'eslint-plugin-promise',
         'eslint-plugin-react',
         'eslint-plugin-react-hooks',
+        'prettier',
       ],
       {
         'save-dev': true,

@@ -1,7 +1,7 @@
 {
   "name": "generator-walterio",
-  "version": "0.0.4",
-  "description": "Walterio yeoman generator for React ESLint JS and TS",
+  "version": "0.0.5",
+  "description": "Walterio yeoman generator for React ESLint JS, TS and NextJs",
   "author": "Walter Radduso",
   "license": "ISC",
   "files": [
