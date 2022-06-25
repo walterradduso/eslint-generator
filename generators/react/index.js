@@ -26,6 +26,9 @@ module.exports = class extends Generator {
           {
             name: 'typescript',
           },
+          {
+            name: 'next.js',
+          },
         ],
       },
     ]);
@@ -37,6 +40,10 @@ module.exports = class extends Generator {
 
       if (answers.eslint.includes('typescript')) {
         this.composeWith(require.resolve('./typescript'));
+      }
+
+      if (answers.eslint.includes('next.js')) {
+        this.composeWith(require.resolve('./nextjs'));
       }
     }
   }
