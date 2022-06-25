@@ -1,4 +1,7 @@
+const _extend = require('lodash/extend');
 const Generator = require('yeoman-generator');
+
+_extend(Generator.prototype, require('yeoman-generator/lib/actions/install'));
 
 module.exports = class extends Generator {
   installDependencies() {
@@ -23,7 +26,7 @@ module.exports = class extends Generator {
   }
 
   eslint() {
-    this.fs.copy(this.templatePath('.eslintrc.js'), this.destinationPath('.eslintrc'));
+    this.fs.copy(this.templatePath('.eslintrc'), this.destinationPath('.eslintrc'));
   }
 
   eslintIgnore() {
