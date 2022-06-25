@@ -1,5 +1,8 @@
 .idea/
+.next/
+.vercel/
 .vscode/
 build/
 coverage/
 node_modules/
+out/

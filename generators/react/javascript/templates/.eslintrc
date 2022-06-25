@@ -28,6 +28,7 @@
   },
   "rules": {
     "no-console": "warn",
+    "react/self-closing-comp": "warn",
     "prettier/prettier": [
       "error",
       {
@@ -46,13 +47,14 @@
       "warn",
       {
         "args": "after-used",
-        "ignoreRestSiblings": false,
-        "argsIgnorePattern": "^_.*?$"
+        "argsIgnorePattern": "^_.*?$",
+        "ignoreRestSiblings": false
       }
     ],
     "import/order": [
       "warn",
       {
+        "groups": ["type", "builtin", "object", "external", "internal", "parent", "sibling", "index"],
         "pathGroups": [
           {
             "group": "external",
@@ -63,7 +65,6 @@
         "newlines-between": "always"
       }
     ],
-    "react/self-closing-comp": "warn",
     "react/jsx-sort-props": [
       "warn",
       {
@@ -75,21 +76,9 @@
     ],
     "padding-line-between-statements": [
       "error",
-      {
-        "blankLine": "always",
-        "next": "return",
-        "prev": "*"
-      },
-      {
-        "blankLine": "always",
-        "next": "*",
-        "prev": ["const", "let", "var"]
-      },
-      {
-        "blankLine": "any",
-        "next": ["const", "let", "var"],
-        "prev": ["const", "let", "var"]
-      }
+      {"blankLine": "always", "next": "return", "prev": "*"},
+      {"blankLine": "always", "next": "*", "prev": ["const", "let", "var"]},
+      {"blankLine": "any", "next": ["const", "let", "var"], "prev": ["const", "let", "var"]}
     ]
   }
 }
